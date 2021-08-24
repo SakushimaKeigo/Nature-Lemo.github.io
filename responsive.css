@@ -1,0 +1,164 @@
+@media screen and (max-width:896px){
+    header ul{
+        display:none;
+    }
+    .main-container{
+        background-image: url("img/Remo-mini2-keyvisual-hp-scaled.jpeg");
+        background-size:cover;
+        max-width:100%;
+    }
+    .main-container img{
+        height: auto;
+        max-width: 100%;
+        vertical-align: middle;
+    }
+    .main2{
+        margin:0 auto;
+    }
+    .main2 img{
+        width:50%;
+    }
+    .lines{
+        flex-wrap: wrap;
+    }
+    .control{
+        padding:60px 60px;
+        width:100%;
+    }
+    .control h3{
+        display:block;
+        font-size:19px;
+    }
+    .control p{
+        display:block;
+        font-size:14px;
+    }
+    .main3-1{
+        flex-wrap: wrap;
+    }
+    .main3-2{
+        flex-wrap: wrap;
+    }
+    .main3-3{
+        flex-wrap: wrap;
+    }
+    .main4{
+        flex-wrap: wrap;
+    }
+    .main5-1{
+        flex-wrap: wrap;
+    }
+    .main5-2{
+        flex-wrap: wrap;
+    }
+    .main5-3{
+        flex-wrap: wrap;
+    }
+    .main3-1 img{
+        width:100%;
+    }
+    .main3-2 img{
+        width:100%;
+    }
+    .main4 img{
+        width:100%;
+    }
+    .main5-1 img{
+        width:100%;
+    }
+    .main5-2 img{
+        width:100%;
+    }
+    .main5-3 img{
+        width:100%;
+    }
+    .main6 h3{
+        font-size:24px;
+    }
+    .foot0{
+        margin:0 16px;
+        padding:0 42px;
+    }
+    .foot0 a{
+        margin:40px 0 0 ;
+    }
+    .line{
+        flex-wrap:wrap;
+        justify-content: left;
+        padding-left:16px;
+        margin-left:42px;
+    }
+    .foot1{
+        margin:40px 0 0 0;
+        max-width: 33.3%;
+        flex-basis: 33.3%;
+    }
+    .foot2 a{
+        margin-top:7px;
+        display:inline-block;
+        width:110px;
+    }
+    .footer-container p{
+        margin:40px 16px 100px;
+        padding:0 42px;
+    }
+    .footer-buy{
+        display:block;
+        border-top:1px solid white;
+        padding:18px 0;
+        width:100%;
+        text-align: center;
+        position:fixed;
+        bottom:0;
+        right:0;
+        background-color: #152332;
+    }
+}
+
+@media screen and (max-width:480px){
+    p{
+        max-width:100%;
+    }
+    .head2 h1{
+        display:none;
+    }
+    .main-container{
+        background-image: url("img/Remo-mini2-keyvisual-hp.png");
+        background-size:cover;
+    }
+    .main2 img{
+        width:100%;
+        margin:0 auto;
+        max-width:480px;
+    }
+    .control{
+        display:inline-block;
+        padding:10px 20px;
+        width:100%;
+    }
+    .control h3{
+        display:inline-block;
+        width:100%;
+    }
+    .pcpad{
+        display:none;
+    }
+    .sp{
+        display:block;
+    }
+    .line{
+        flex-wrap: wrap;
+        justify-content:left;
+        margin:0 60px;
+        padding-left:0;
+    }
+    .foot1{
+        margin:40px 0 0 0;
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+    footer p{
+        margin:40px 16px 0;
+        padding:0 42px;
+    }
+}
